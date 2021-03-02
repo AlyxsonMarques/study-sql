@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "API-Rest-for-Lembre-me",
   "version": "1.0.0",
   "description": "API Rest used for everything in Lembre-me",
@@ -17,5 +18,25 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
+=======
+  "name": "study-sql",
+  "version": "1.0.0",
+  "description": "Estudo sobre integração de Express + PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --env node",
+    "start": "nodemon server/server.js"
+  },
+  "keywords": [],
+  "author": "Alyxson Marques",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "pg-promise": "^10.9.4",
+>>>>>>> e753593077cc327ecb1ba402c43005d2140aac81
   }
 }
